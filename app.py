@@ -50,7 +50,7 @@ with col1:
     st.success("🚜 Prototype for Online Hackathon")
 
 with col2:
-    st.image(field_img, use_column_width=True)
+    st.image(farm_img, use_column_width=True)
 
 st.markdown('</div>', unsafe_allow_html=True)
 
@@ -70,7 +70,7 @@ with f1:
 
 with f2:
     st.markdown('<div class="card">', unsafe_allow_html=True)
-    st.image(cloude_img, use_column_width=True)
+    st.image(weather_img, use_column_width=True)
     st.subheader("🌦 Weather Alerts")
     st.write("Weather-aware farming recommendations to reduce risk.")
     st.markdown('</div>', unsafe_allow_html=True)
