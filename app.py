@@ -10,8 +10,8 @@ st.set_page_config(
 
 # ---------- LOAD IMAGES ----------
 farm_img = Image.open("assets/field.jpg")
-crop_img = Image.open("assets/crop.jpg")
-weather_img = Image.open("assets/cloude.jpg")
+crop_img = Image.open("assets/crop.png")
+weather_img = Image.open("assets/cloud.png")
 
 # ---------- HERO SECTION ----------
 st.markdown(
