@@ -1,7 +1,6 @@
 # 🌱 AgriLink AI – Smart Farm Prototype
 
-Live Prototype: https://<your-streamlit-link>
-
+Live Prototype: https://https://agrilink-ai-hvvevtriykc9qjgzlhc5gw.streamlit.app/
 ## Problem Statement
 Farmers suffer losses due to late disease detection, unpredictable weather,
 and lack of real-time expert guidance.
