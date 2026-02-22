@@ -1,5 +1,6 @@
 import streamlit as st
 from PIL import Image
+import risk_dashboard
 
 # ---------- PAGE CONFIG ----------
 st.set_page_config(
@@ -86,7 +87,7 @@ st.header("🧪 Live Prototype Demo")
 
 option = st.selectbox(
     "Choose a service",
-    ["Ask AI", "Crop Disease Detection", "Weather Alerts"]
+    ["Ask AI", "Crop Disease Detection", "Weather Alerts","Farm Risk Dashboard"]
 )
 
 if option == "Ask AI":
@@ -110,6 +111,10 @@ elif option == "Weather Alerts":
     st.write("⚠ Recommendation: Avoid pesticide spraying today.")
     st.markdown('</div>', unsafe_allow_html=True)
 
+elif option == "Farm Risk Dashboard":
+    st.markdown('<div class="card">', unsafe_allow_html=True)
+    risk_dashboard.show_risk_dashboard()
+    st.markdown('</div>', unsafe_allow_html=True)
 # ---------- FOOTER ----------
 st.write("---")
 st.markdown(
